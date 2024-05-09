@@ -23,6 +23,14 @@ Lipid Rafts
 
 
 # Domain Determination Method
+![image](https://github.com/kelleypa/Membrane-Biophysics/assets/107891103/073fc234-1473-4ece-a38d-fd835e18f035)
+
+## Probability of Combinations wiht Repetition of 3 different Species of Lipids 
+![image](https://github.com/kelleypa/Membrane-Biophysics/assets/107891103/b79f142c-9c0e-4ef2-9fa8-12c088396484)
+### Raft-Like (red) Non-raft Like (blue)
+![image](https://github.com/kelleypa/Membrane-Biophysics/assets/107891103/2ea9730d-beb4-4bd6-9f9c-05a953d6ce28)
+
+
 ## Example
 ![DDanimation](https://github.com/kelleypa/Membrane-Biophysics/assets/107891103/8121407f-6c4a-41fb-ad1b-078fa39f89bb)
 ### End Result
