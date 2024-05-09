@@ -21,11 +21,14 @@ Lipid Rafts
 
 
 # Martini Course-Grained Simulation
+We calculate the trajectories of the atoms on the lipid molecules in a bilayer according to Newton’s laws in MD simulations. To allow the study of larger systems over longer timescales, we employed the CG Martini force field [http://cgmartini.nl/].
 
 ![martinilipids](https://github.com/kelleypa/Membrane-Biophysics/assets/107891103/13d73afd-5c69-4210-a9b1-a16c3c92f686)
 
 
 # Domain Determination Method
+Lipids were assigned to PSM-rich/cholesterol-rich (raft-like) domains according to the density of their lateral distribution within the plane of each leaflet. The assignment was made by a sliding window method in which a window ~ 2.4 x 2.4 nm (containing on average 11 lipids) in size was tracked ~ 0.8 nm (average separation between lipid molecules) in each direction.30 A window for which the count of individual lipids exceeds the threshold for random mixing with >75% probability was designated PSM-rich/cholesterol-rich. Windows that do not satisfy this criterion were deemed to be homogeneously mixed (non-raft). The domain type for each ~ 0.8 x 0.8 nm2 area was assigned and tallied 9 separate times by the sliding window, and ultimately classified by majority vote. The lipids inside the area were correspondingly categorized. 
+
 ![image](https://github.com/kelleypa/Membrane-Biophysics/assets/107891103/073fc234-1473-4ece-a38d-fd835e18f035)
 
 ## Probability of Combinations wiht Repetition of 3 different Species of Lipids 
@@ -44,4 +47,5 @@ Lipid Rafts
 
 # CG Simulation of Effect of Monounsaturated (POPC) vs Polyunsaturated (PDPC) Lipids
 ### Domains @ 6 $\mu$s
+
 ![image](https://github.com/kelleypa/Membrane-Biophysics/assets/107891103/900b1030-e62d-4b50-b6c7-4acca96e2eb8)
