@@ -5,7 +5,7 @@ Analyzing GROMACs molecular dynamics simulation of model lipid bilayer.
 
 Lipid-Lipid Interactions
 <p align="center">
-  <img width="460" height="300" src="https://github.com/kelleypa/Membrane-Biophysics/assets/107891103/8ebff236-7e70-49c2-a3db-0c0f39fcebee">
+  <img width="50%" src="https://github.com/kelleypa/Membrane-Biophysics/assets/107891103/8ebff236-7e70-49c2-a3db-0c0f39fcebee">
 </p>
 
 
