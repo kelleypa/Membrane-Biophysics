@@ -15,9 +15,9 @@ Domain Formation
 </p>
 
 Lipid Rafts
-<p align="center">
+
 ![](https://github.com/kelleypa/Membrane-Biophysics/blob/main/rafts_trimmed_enhanced_reduced.gif)
-</p>
+
 
 
 # Martini Course-Grained Simulation
