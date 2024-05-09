@@ -23,7 +23,13 @@ Lipid Rafts
 
 
 # Domain Determination Method
+## Example
 ![DDanimation](https://github.com/kelleypa/Membrane-Biophysics/assets/107891103/8121407f-6c4a-41fb-ad1b-078fa39f89bb)
+### End Result
+![image](https://github.com/kelleypa/Membrane-Biophysics/assets/107891103/936ff4e1-3411-478d-9f5f-631a1978878a)
+## Window Size 
+![image](https://github.com/kelleypa/Membrane-Biophysics/assets/107891103/b9a04343-fdba-4e7c-92b9-2a1d94ff2053)
+
 
 # CG Simulation of Effect of Monounsaturated vs Polyunsaturated Lipids
 ### Domains @ 6 $\mu$s
