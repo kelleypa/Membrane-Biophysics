@@ -11,7 +11,7 @@ Lipid-Lipid Interactions
 
 Domain Formation
 <p align="center">
-  <img width="460" height="300" src="https://github.com/kelleypa/Membrane-Biophysics/assets/107891103/f5f150d8-c8ca-4cfe-9035-dec9d378111d">
+  <img width="50%" src="https://github.com/kelleypa/Membrane-Biophysics/assets/107891103/f5f150d8-c8ca-4cfe-9035-dec9d378111d">
 </p>
 
 Lipid Rafts
