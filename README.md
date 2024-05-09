@@ -2,19 +2,25 @@
 Analyzing GROMACs molecular dynamics simulation of model lipid bilayer. 
 
 # Lipid Rafts
+Communication between biological cells and with the organelles in a cell is controlled by the membranes that enclose them. They are composed of lipids and proteins. Lipid molecules with a hydrophilic headgroup and a pair of hydrophobic chains form a bilayer roughly 4 nm thick. Proteins are embedded within or are attached peripherally to the bilayer. 
 
-Lipid-Lipid Interactions
+## Lipid-Lipid Interactions
+
+There are many kinds of lipid that differ in molecular structure and affinity for each other. Below illustrates the affinity of saturated, which consists of single bonded chains of carbon, and unsaturated, differentiated by containing double bond(s) =C-C-C= in the lipid chain, and an extremely vital and present lipid: cholesterol.
+
 <p align="center">
   <img width="50%" src="https://github.com/kelleypa/Membrane-Biophysics/assets/107891103/8ebff236-7e70-49c2-a3db-0c0f39fcebee">
 </p>
 
+## Domain Formation
 
-Domain Formation
+These lipid-lipid interactions drives lateral segregation into compositionally distinct domains creating the local environment necessary for the function of resident proteins. 
 <p align="center">
   <img width="50%" src="https://github.com/kelleypa/Membrane-Biophysics/assets/107891103/f5f150d8-c8ca-4cfe-9035-dec9d378111d">
 </p>
 
-Lipid Rafts
+## Lipid Rafts
+Lipid rafts are the most studied example. They are domains enriched in sphingolipids and cholesterol molecules tightly packed together that are envisaged as floating in a more loosely packed sea of surrounding lipid. When clustered together, the lipid raft concept posits, the signaling proteins within these nano-sized domains are triggered.
 
 ![](https://github.com/kelleypa/Membrane-Biophysics/blob/main/rafts_trimmed_enhanced_reduced.gif)
 
