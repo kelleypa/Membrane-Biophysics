@@ -26,9 +26,6 @@ Lipid rafts are the most studied example. They are domains enriched in sphingoli
   <img width="50%" src="https://github.com/kelleypa/Membrane-Biophysics/blob/main/rafts_trimmed_enhanced_reduced.gif">
 </p>
 
-![](https://github.com/kelleypa/Membrane-Biophysics/blob/main/rafts_trimmed_enhanced_reduced.gif)
-
-
 # Martini Course-Grained Simulation
 We calculate the trajectories of the atoms on the lipid molecules in a bilayer according to Newton’s laws in MD simulations. To allow the study of larger systems over longer timescales, we employed the CG Martini force field [http://cgmartini.nl/].
 
@@ -45,7 +42,7 @@ We make an assumption that half of all available lipids exist in each leaflet. A
 
 The required density threshold of CHOL and SM (A/B) - rich or phospholipid (C)- rich is found by having the hypergeometric probability of all combinations choose r possible lipids inside a sliding window be ≤ 25%. In other words, we selected a 1 in 4 chance of observing a random combination that meets the given threshold for r lipids found in a sliding window as our cut-off value to determine raft-like or nonraft- like domains. Anything that does not meet these two criteria is identified as ’mixed’. Below illustrates the raft-like (red) and nonraft-like (blue) designation.
 
-! [image](https://github.com/kelleypa/Membrane-Biophysics/assets/107891103/2ea9730d-beb4-4bd6-9f9c-05a953d6ce28)
+![image](https://github.com/kelleypa/Membrane-Biophysics/assets/107891103/2ea9730d-beb4-4bd6-9f9c-05a953d6ce28)
 
 ## Sliding Window
 Windows for which the count of individual lipids exceeds the threshold for random mixing with >75% probability were designated PSM-rich/cholesterol-rich and PC- rich depending upon content.Below is an example of a window sliding by a grid length such that each grid box is tallied 9 times.
