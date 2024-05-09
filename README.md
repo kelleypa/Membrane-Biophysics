@@ -39,6 +39,6 @@ Lipid Rafts
 ![image](https://github.com/kelleypa/Membrane-Biophysics/assets/107891103/b9a04343-fdba-4e7c-92b9-2a1d94ff2053)
 
 
-# CG Simulation of Effect of Monounsaturated vs Polyunsaturated Lipids
+# CG Simulation of Effect of Monounsaturated (POPC) vs Polyunsaturated (PDPC) Lipids
 ### Domains @ 6 $\mu$s
 ![image](https://github.com/kelleypa/Membrane-Biophysics/assets/107891103/900b1030-e62d-4b50-b6c7-4acca96e2eb8)
