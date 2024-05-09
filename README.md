@@ -65,7 +65,7 @@ Lipids were assigned to PSM-rich/cholesterol-rich (raft-like) domains according 
 
 
 # CG Simulation of Effect of Monounsaturated (POPC) vs Polyunsaturated (PDPC) Lipids
-### Domains @ 6 &mu s
+### Domains @ 6 μs
 Toward understanding the mechanism of action for DHA on lipid raft size relied on a controlled simulation study. This method allowed us to investigate the size of SM-rich/Chol-rich raft-like domains formed in response to DHA and to analyze the associated changes in composition and order of rafts and nonrafts.
 The CG simulations began with homogenously mixed bilayers composed of SM/Chol/POPC and SM/Chol/PDPC in 1:1:1 mol ratio, and SM/Chol/POPC/PDPC in 1:1:0.5:0.5 mol ratio. The propensity for SM and Chol to segregate into lipid rafts was then observed over production runs of 6 μs. The figure below shows snapshots of the upper leaflet after 6 μs of simulation for all 3 compositions of membrane. Color-coded circles indicate the lateral location of SM (red), Chol (white), POPC (yellow), and PDPC (blue) molecules, and a color coding of areas indicates the regions identified as raft-like (red) and nonraft (blue), according to the local concentration of lipid. The snapshots illustrate that the formation and size of SM-rich/Chol-rich raft-like domains are enhanced by PDPC. In SM/Chol/POPC, most of the bilayer remains nonraft, and the domains that are SM-rich/Chol-rich are small and few. An increase in the size of SM-rich/Chol-rich domains accompanies the partial replacement of POPC by PDPC in SM/Chol/POPC/PDPC, and the total substitution of POPC with PDPC in SM/Chol/PDPC results in further increase in size.
 
