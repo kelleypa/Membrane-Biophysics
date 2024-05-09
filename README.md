@@ -34,18 +34,20 @@ We calculate the trajectories of the atoms on the lipid molecules in a bilayer a
 
 # Domain Determination Method
 ## Probability of Combinations wiht Repetition of 3 different Species of Lipids 
-We make an assumption that half of all available lipids exist in each leaflet. As an example, let’s take a nonequal mixture of four lipid types denoted as A, B, and C with a number in each leaflet. Either A or B can be thought of a CHOL and SM that have affinity for each other and tend to form domains; C can be thought of a phospholipid. Thinking statistically as the sliding window is analogously to selecting possible colored marbles, the probability of all possible combinations without repetition is given by
+For a fixed number of lipids comprising a leaflet of the membrane, there is a finite number of possible combinations. Thinking statistically as the sliding window is analogously to selecting a set number of colored marbles from a bag, the probability of all possible combinations without repetition is given by:
 
 ![image](https://github.com/kelleypa/Membrane-Biophysics/assets/107891103/073fc234-1473-4ece-a38d-fd835e18f035)
 
+As an example, let’s take a nonequal mixture of three lipid types denoted as A, B, and C with a number in each leaflet. Either A or B can be thought of a CHOL and SM that have affinity for each other and tend to form domains; C can be thought of a phospholipid. Taking an simple example of only finding three lipids at one time, the possible combinations with corresponding probability is:
+
 ![image](https://github.com/kelleypa/Membrane-Biophysics/assets/107891103/b79f142c-9c0e-4ef2-9fa8-12c088396484)
 
-The required density threshold of CHOL and SM (A/B) - rich or phospholipid (C)- rich is found by having the hypergeometric probability of all combinations choose r possible lipids inside a sliding window be ≤ 25%. In other words, we selected a 1 in 4 chance of observing a random combination that meets the given threshold for r lipids found in a sliding window as our cut-off value to determine raft-like or nonraft- like domains. Anything that does not meet these two criteria is identified as ’mixed’. Below illustrates the raft-like (red) and nonraft-like (blue) designation.
+The required density threshold of CHOL and SM (A/B) - rich or phospholipid (C)- rich is found by having the hypergeometric probability of all combinations choose r possible lipids inside a sliding window be ≤ 25%. In other words, we selected a 1 in 4 chance of observing a random combination that meets the given threshold for r lipids found in a sliding window as our cut-off value to determine raft-like or nonraft- like domains. Below illustrates the raft-like (red) and nonraft-like (blue) designation.
 
 ![image](https://github.com/kelleypa/Membrane-Biophysics/assets/107891103/2ea9730d-beb4-4bd6-9f9c-05a953d6ce28)
 
 ## Sliding Window
-Windows for which the count of individual lipids exceeds the threshold for random mixing with >75% probability were designated PSM-rich/cholesterol-rich and PC- rich depending upon content.Below is an example of a window sliding by a grid length such that each grid box is tallied 9 times.
+A sliding windows for which the count of individual lipids exceeds the threshold for random mixing with >75% probability were designated PSM-rich/cholesterol-rich and PC- rich depending upon content. As the simulation has periodic boundary conditions, an extension of the boundary of the simulation box allows the sliding window to start at the bottom and slide right; upon reaching the extent of the right, the sliding resets but shifts up one sliding length. Below is an example of a window sliding by a grid length such that each grid box is tallied 9 times.
 
 ![DDanimation](https://github.com/kelleypa/Membrane-Biophysics/assets/107891103/8121407f-6c4a-41fb-ad1b-078fa39f89bb)
 
