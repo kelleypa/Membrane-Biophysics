@@ -22,8 +22,11 @@ These lipid-lipid interactions drives lateral segregation into compositionally d
 ## Lipid Rafts
 Lipid rafts are the most studied example. They are domains enriched in sphingolipids and cholesterol molecules tightly packed together that are envisaged as floating in a more loosely packed sea of surrounding lipid. When clustered together, the lipid raft concept posits, the signaling proteins within these nano-sized domains are triggered.
 
-![](https://github.com/kelleypa/Membrane-Biophysics/blob/main/rafts_trimmed_enhanced_reduced.gif)
+<p align="center">
+  <img width="50%" src="https://github.com/kelleypa/Membrane-Biophysics/blob/main/rafts_trimmed_enhanced_reduced.gif">
+</p>
 
+![](https://github.com/kelleypa/Membrane-Biophysics/blob/main/rafts_trimmed_enhanced_reduced.gif)
 
 
 # Martini Course-Grained Simulation
