@@ -1,6 +1,8 @@
 # Membrane Biophysics
 Analyzing GROMACs coarse-grained (CG) molecular dynamics (MD) simulation of model lipid bilayer, determining raft and nonraft domain formations. 
 
+For a more details, check out my Ph.D. Preliminary Exam Report (PreliminaryReport.pdf) in the repository directory.
+
 # Lipid Rafts
 Communication between biological cells and with the organelles in a cell is controlled by the membranes that enclose them. They are composed of lipids and proteins. Lipid molecules with a hydrophilic headgroup and a pair of hydrophobic chains form a bilayer roughly 4 nm thick. Proteins are embedded within or are attached peripherally to the bilayer. 
 
